@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+body{
+    
+    background-color: #C4C4C4;
+    margin : 0;
+}
+.horizontalBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+ 
+    font-family: 'Roboto';
+}
+.horizontalBar ul{
+    margin-top: 2%;
+    padding: 0px;
+    display:flex;
+    justify-content:space-around;
+}
+.horizontalBar li{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+}
+.leftDiv{
+    width:80vh;
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.leftTitle{
+    padding-top: 39%;
+    padding-left: 10%;
+    width:336px;
+}
+.leftTitle h1{
+   font-size: 42px;
+}
+
+.leftTitle p {
+   color: #9C9696;
+}
